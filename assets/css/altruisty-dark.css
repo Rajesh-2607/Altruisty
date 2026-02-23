@@ -79,6 +79,17 @@ a:hover { color: var(--theme-secondary); }
 .offcanvas__contact .social-icon a:hover { background: var(--theme) !important; color: #fff !important; }
 .offcanvas__overlay { background: rgba(0,0,0,0.7) !important; }
 
+/* Mobile menu (meanmenu) text visibility */
+.mean-container .mean-nav ul li a {
+  color: #d0d0d8 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+}
+.mean-container .mean-nav ul li a:hover { color: var(--theme) !important; }
+.mean-container .mean-nav ul li a.mean-expand { color: var(--theme) !important; }
+.mean-container .mean-nav ul li .submenu li a { color: var(--text) !important; }
+.mean-container .mean-nav ul li .submenu li a:hover { color: var(--theme) !important; }
+.mobile-menu { border-color: rgba(255,255,255,0.06) !important; }
+
 @media (max-width: 480px) {
   .offcanvas__info { width: 100% !important; }
 }
