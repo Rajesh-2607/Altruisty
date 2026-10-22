@@ -788,3 +788,20 @@ body {
 .sidebar-widget-image .content p { color: rgba(255,255,255,0.8) !important; }
 .sidebar-widget-image .content .icon-item .icon { background: rgba(255,255,255,0.15) !important; }
 .sidebar-widget-image .content .icon-item h3 a { color: #fff !important; }
+
+
+/* Contact form status messages */
+.form-message {
+    margin-top: 18px;
+    font-size: 15px;
+    line-height: 1.5;
+    min-height: 1em;
+}
+
+.form-message.success {
+    color: #4ade80;
+}
+
+.form-message.error {
+    color: #f87171;
+}
