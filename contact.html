@@ -408,23 +408,23 @@
                                                 <div class="row g-4 align-items-center">
                                                     <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                                         <div class="form-clt">
-                                                            <input type="text" placeholder="Full name *">
+                                                            <input type="text" name="name" placeholder="Full name *" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                                                         <div class="form-clt">
-                                                            <input type="text" placeholder="Email address *">
+                                                            <input type="email" name="email" placeholder="Email address *" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                                         <div class="form-clt">
-                                                            <input type="text" placeholder="Phone number *">
+                                                            <input type="tel" name="phone" placeholder="Phone number *" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                                                         <div class="form-clt">
                                                             <div class="form">
-                                                                <select class="single-select w-100">
+                                                                <select class="single-select w-100" name="service">
                                                                     <option>Select a service</option>
                                                                     <option>Startup Incubation</option>
                                                                     <option>Software Development</option>
@@ -438,13 +438,14 @@
                                                     </div>
                                                     <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
                                                         <div class="form-clt">
-                                                            <textarea name="message" placeholder="Type your message"></textarea>
+                                                            <textarea name="message" placeholder="Type your message" required></textarea>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
                                                         <button type="submit" class="theme-btn wow fadeInUp" data-wow-delay=".5s">
                                                             Submit now <i class="fa-solid fa-arrow-up-right"></i>
                                                         </button>
+                                                        <div class="form-message" role="status" aria-live="polite"></div>
                                                     </div>
                                                 </div>
                                             </form>
